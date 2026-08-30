@@ -1,11 +1,12 @@
 [project]
 name = "apart-assessment"
 version = "0.1.0"
-description = "Practice exercises for AI manipulation evaluation work."
+description = "Research work on evaluating harmful AI manipulation."
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "anthropic>=0.75.0",
+    "inspect-ai>=0.3.260",
     "openai>=2.0.0",
     "python-dotenv>=1.0.1",
 ]

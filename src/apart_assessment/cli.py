@@ -1,4 +1,4 @@
-"""Command-line entry point for the practice project."""
+"""Command-line entry point for the assessment project."""
 
 from dotenv import load_dotenv
 
@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 def main() -> None:
     """Load local configuration and confirm that the project is ready."""
     load_dotenv()
-    print("Apart assessment practice environment is ready.")
+    print("Apart assessment environment is ready.")
 
 
 if __name__ == "__main__":
